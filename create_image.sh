@@ -12,3 +12,5 @@ docker build  --network=host --tag "10.202.67.207:5000/${USER}:${TAG}" . \
   --build-arg USER=${USER}
 
 docker push "10.202.67.207:5000/${USER}:${TAG}"
+
+10.202.67.207:5000/wds20:download_abcd
