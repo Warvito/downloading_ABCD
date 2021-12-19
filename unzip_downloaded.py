@@ -3,7 +3,7 @@ from pathlib import Path
 
 from tqdm import tqdm
 
-input_dir = Path("/project/sourcedata/Package_1189145/fmriresults01")
+input_dir = Path("/project/sourcedata/Package_1195698/fmriresults01")
 
 for zipped_file in tqdm(input_dir.glob("*baselineYear1Arm1*.tgz")):
     try:
