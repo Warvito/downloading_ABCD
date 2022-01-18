@@ -7,4 +7,4 @@ RUN addgroup --gid $GROUP_ID $USER
 RUN adduser --disabled-password --gecos '' --uid $USER_ID --gid $GROUP_ID $USER
 
 RUN python -m pip install --upgrade pip
-RUN pip3 install nda-tools
+RUN pip3 install nda-tools==0.2.13
